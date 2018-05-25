@@ -108,7 +108,7 @@
            destination: dest,//document.getElementById('end').value,
            travelMode: 'DRIVING'
          }, function(response, status,error) {
-           // Route the directions and pass the response to a function to create
+           // Route the directions and pass tsshe response to a function to create
            // markers for each step.
            if (status === 'OK') {
            /*   document.getElementById('warnings-panel').innerHTML =
